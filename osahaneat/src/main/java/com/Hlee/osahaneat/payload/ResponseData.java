@@ -1,9 +1,18 @@
 package com.Hlee.osahaneat.payload;
 
 public class ResponseData {
-    private int status;
+    private int status = 200;
     private String desc;
     private Object data;
+    private boolean isSucess;
+
+    public boolean isSucess() {
+        return isSucess;
+    }
+
+    public void setSucess(boolean sucess) {
+        isSucess = sucess;
+    }
 
     public int getStatus() {
         return status;

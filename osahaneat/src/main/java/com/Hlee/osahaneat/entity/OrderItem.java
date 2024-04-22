@@ -1,6 +1,7 @@
 package com.Hlee.osahaneat.entity;
 
-import com.cybersoft.osahaneat.entity.key.KeyOrderItem;
+import com.Hlee.osahaneat.entity.key.KeyOrderItem;
+
 import jakarta.persistence.*;
 
 import java.util.Date;
